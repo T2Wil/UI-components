@@ -1,5 +1,5 @@
 @import url(./btn.css);
-
+@import url(./avatar.css);
 body,html{
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -8,8 +8,17 @@ body,html{
     margin: 0;
     text-align: center;
 }
-
-.btns div{
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+   }
+.design-btn{
+    margin: 1rem auto;
+}
+.design-btn div{
     margin-top: 1rem;
     display: inline-block;
+}
+.design-avatar{
+    margin: 1rem auto;
 }
