@@ -1,5 +1,6 @@
 @import url(./btn.css);
 @import url(./avatar.css);
+@import url(./notif.css);
 body,html{
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -12,13 +13,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
    }
-.design-btn{
+div{
     margin: 1rem auto;
+    padding: 1rem auto;
 }
+
 .design-btn div{
     margin-top: 1rem;
     display: inline-block;
 }
-.design-avatar{
-    margin: 1rem auto;
-}
+
